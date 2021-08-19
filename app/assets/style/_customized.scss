@@ -1,162 +1,164 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
 body {
-    font-family: "Roboto", "sans-serif";
-    line-height: 1.5;
-    font-size: 20px;
+  font-family: "Roboto", "sans-serif";
+  line-height: 1.5;
+  font-size: 20px;
 }
-
+.w-100 {
+  width: 100%;
+}
 //margin 4*N
 //margin top
 $spacer: 4px;
 .mt {
-    &-14 {
-        margin-top: $spacer * 14;
-    }
+  &-14 {
+    margin-top: $spacer * 14;
+  }
 }
 //margin bottom
 .mb {
-    &-0 {
-        margin-bottom: 0;
-    }
-    &-1 {
-        margin-bottom: $spacer * 1;
-    }
-    &-2 {
-        margin-bottom: $spacer * 2;
-    }
-    &-3 {
-        margin-bottom: $spacer * 3;
-    }
-    &-4 {
-        margin-bottom: $spacer * 4;
-    }
-    &-5 {
-        margin-bottom: $spacer * 5;
-    }
-    &-8 {
-        margin-bottom: $spacer * 8;
-    }
-    &-10 {
-        margin-bottom: $spacer * 10;
-    }
-    &-12 {
-        margin-bottom: $spacer * 12;
-    }
-    &-14 {
-        margin-bottom: $spacer * 14;
-    }
-    &-17 {
-        margin-bottom: $spacer * 17;
-    }
-    &-36 {
-        margin-bottom: $spacer * 36;
-    }
-    &-40 {
-        margin-bottom: $spacer * 40;
-    }
+  &-0 {
+    margin-bottom: 0;
+  }
+  &-1 {
+    margin-bottom: $spacer * 1;
+  }
+  &-2 {
+    margin-bottom: $spacer * 2;
+  }
+  &-3 {
+    margin-bottom: $spacer * 3;
+  }
+  &-4 {
+    margin-bottom: $spacer * 4;
+  }
+  &-5 {
+    margin-bottom: $spacer * 5;
+  }
+  &-8 {
+    margin-bottom: $spacer * 8;
+  }
+  &-10 {
+    margin-bottom: $spacer * 10;
+  }
+  &-12 {
+    margin-bottom: $spacer * 12;
+  }
+  &-14 {
+    margin-bottom: $spacer * 14;
+  }
+  &-17 {
+    margin-bottom: $spacer * 17;
+  }
+  &-36 {
+    margin-bottom: $spacer * 36;
+  }
+  &-40 {
+    margin-bottom: $spacer * 40;
+  }
 }
 
 //margin-right 4*N
 .mr {
-    &-4 {
-        margin-right: $spacer * 4;
-    }
-    &-6 {
-        margin-right: $spacer * 6;
-    }
+  &-4 {
+    margin-right: $spacer * 4;
+  }
+  &-6 {
+    margin-right: $spacer * 6;
+  }
 }
 //padding 4*n
 .pt {
-    &-14 {
-        padding-top: $spacer * 14;
-    }
-    &-16 {
-        padding-top: $spacer * 16;
-    }
+  &-14 {
+    padding-top: $spacer * 14;
+  }
+  &-16 {
+    padding-top: $spacer * 16;
+  }
 }
 .pm {
-    &-16 {
-        padding-bottom: $spacer * 16;
-    }
-    &-40 {
-        padding-bottom: $spacer * 40;
-    }
+  &-16 {
+    padding-bottom: $spacer * 16;
+  }
+  &-40 {
+    padding-bottom: $spacer * 40;
+  }
 }
 //font
 .font {
-    &Size {
-        &S {
-            font-size: 24px;
-        }
-        &M {
-            font-size: 64px;
-        }
-        &L {
-            font-size: 80px;
-        }
+  &Size {
+    &S {
+      font-size: 24px;
     }
-    &StyleItalic {
-        font-style: italic;
+    &M {
+      font-size: 64px;
     }
+    &L {
+      font-size: 80px;
+    }
+  }
+  &StyleItalic {
+    font-style: italic;
+  }
 }
 //line-height
 .lineHeight {
-    &S {
-        line-height: 42px;
-    }
-    &M {
-        line-height: 84px;
-    }
-    &L {
-        line-height: 106px;
-    }
+  &S {
+    line-height: 42px;
+  }
+  &M {
+    line-height: 84px;
+  }
+  &L {
+    line-height: 106px;
+  }
 }
 //font-weight
 .fontWeight {
-    &B {
-        font-weight: bold;
-    }
-    &900 {
-        font-weight: 900;
-    }
+  &B {
+    font-weight: bold;
+  }
+  &900 {
+    font-weight: 900;
+  }
 }
 
 //display
 .d {
-    &-flex {
-        display: flex;
-    }
-    &-block {
-        display: block;
-    }
+  &-flex {
+    display: flex;
+  }
+  &-block {
+    display: block;
+  }
 }
 .f {
-    &-dc {
-        flex-direction: column;
-    }
-    &lexWrap {
-        flex-wrap: wrap;
-    }
-    &-jcsb {
-        justify-content: space-between;
-    }
-    &-jcc {
-        justify-content: center;
-    }
-    &-aic {
-        align-items: center;
-    }
+  &-dc {
+    flex-direction: column;
+  }
+  &lexWrap {
+    flex-wrap: wrap;
+  }
+  &-jcsb {
+    justify-content: space-between;
+  }
+  &-jcc {
+    justify-content: center;
+  }
+  &-aic {
+    align-items: center;
+  }
 }
 
 //center
 .textAlignCenter {
-    text-align: center;
+  text-align: center;
 }
 /*color*/
 .color-primary {
-    color: #fff;
+  color: #fff;
 }
 .color-bg {
-    background: black;
+  background: black;
 }
